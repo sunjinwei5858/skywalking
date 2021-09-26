@@ -23,6 +23,9 @@ import java.util.List;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * span的数据结构
+ */
 @Getter
 public class Span {
     @Setter

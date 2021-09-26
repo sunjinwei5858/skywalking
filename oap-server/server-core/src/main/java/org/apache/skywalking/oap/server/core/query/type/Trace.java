@@ -22,6 +22,9 @@ import java.util.ArrayList;
 import java.util.List;
 import lombok.Getter;
 
+/**
+ * trace的数据结构
+ */
 @Getter
 public class Trace {
     private final List<Span> spans;
