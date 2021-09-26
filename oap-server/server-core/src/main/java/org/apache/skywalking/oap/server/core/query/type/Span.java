@@ -57,7 +57,13 @@ public class Span {
     private boolean isError;
     @Setter
     private String layer;
+    /**
+     * tags是key-value的数据 key和value完全由用户自己定义
+     */
     private final List<KeyValue> tags;
+    /**
+     * logs：和tags类似，也是key-value的形式，区别是LogEntity会带一个时间戳属性，记录这条属性产生的时间戳
+     */
     private final List<LogEntity> logs;
     @Setter
     private boolean isRoot;
